@@ -1,0 +1,7 @@
+The exercise is about a product new panel.  I separated the #panel div into three parts: a #header div, a #search div, and a #news div.  In my work, I took advantage of  external resources: Bootstrap, jQuery, and Google Font.
+
+The #header div includes #headline div for the text "GET THE 411 NOW!" and #infoToggler div expanding/collapsing the #news div.  The function of expanding/collapsing is done by Bootstrap Collapse.  The .collapse class indicates a collapsible element (#news in our example);  the #news div is the content that will be shown or hidden with a click of such images.  Meanwhile, the image toggle between "Expand_Arrow.png" and "Collapse_Arrow.png" is achieved by jQuery's find() and toggle() functions.  As for the required font "Open Sans",  I imported Google Font in the CSS.
+
+The #search div includes a span for the text "Search" and a search input.
+
+The #news div includes a plurality of ".oneNews" divs.  Each of the ".oneNews" divs has a ".newsTitle" div for the title and a "newsContent" div for the content.  The required hover is done by CSS :hover selector.  The first two ".oneNews" divs are further set to ".newImage" class, where they have a "NEW_icon.png" image as their background.  The fifth ".oneNews" div has an additional ".dataImage" div in the "newsContent" div, and the ".dataImage" div is for displaying the image "Data_icon.png".  The following ".data" <p> contains a "Read_Arrow.png" image.

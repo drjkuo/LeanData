@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
+#panel {
+   width: 650px;
+   height: 1250px;
+   margin: 0 auto;
+   background-color: #ffffff;
+   border-radius: 15px;
+   border-style: solid;
+   border-width: 1.5pt;
+   border-color: #8da8bf;
+}
+
 #header {
    height: 175px;
    border-radius: 15px;
@@ -24,21 +35,11 @@
    background-color: transparent;
 }
 
-#infoToggler img {
+#header #infoToggler img {
    width: 26px;
    height: 26px;
 }
 
-#panel {
-   width: 650px;
-   height: 1250px;
-   margin: 0 auto;
-   background-color: #ffffff;
-   border-radius: 15px;
-   border-style: solid;
-   border-width: 1.5pt;
-   border-color: #8da8bf;
-}
 
 #search {
    padding: 10px;
@@ -58,28 +59,31 @@
 }
 
 .newImage {
-   background-image: url('https://drjkuo.github.io/resume/assets/images/p/NEW_icon.png');
+   background-image: url('../images/NEW_icon.png');
    background-repeat: no-repeat;
    background-position: 10px 10px;
 }
 
 .readImage {
-   margin-left: 10px; 
+   margin-left: 10px;
    margin-right: 10px;
    display: inline;
    width: 13px;
    height: 13px;
 }
 
-.oneNews:hover { 
+.oneNews:hover {
    background-color: #c4ece4;
-   overflow: auto;
 }
 
-.newsTitle {
-   font-color: #555555;
+.newsTitle a {
+   color: #555555;
    font-weight: 600;
    text-decoration: underline;
+}
+
+.newsContent {
+  color: #555555;
 }
 
 .newsContent .dataImage {
@@ -92,5 +96,3 @@
 .newsContent p .data {
    float: right;
 }
-
-
