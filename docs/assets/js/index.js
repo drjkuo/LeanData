@@ -10,5 +10,4 @@ $("#infoToggler").click(function() {
   else {
     $("#panel").height(folderPanelHeight);
   }
-
 });
