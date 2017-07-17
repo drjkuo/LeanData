@@ -5,7 +5,6 @@ body {
    height: 1300px;
 }
 
-
 #panel {
    width: 650px;
    height: 1250px;
@@ -20,22 +19,13 @@ body {
 }
 
 #header {
-   /*box-sizing: border-box;*/
    width: 650px;
    height: 175px;
-   /*position: absolute;*/
-   /*z-index: 1;*/
-   /*border-radius: 15px;*/
-   /*-webkit-border-radius: 15px;*/
    background-color: #45b7e6;
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
    font-size: 26px;
    padding: 70px 25px 0px 75px;
-   /*border-style: solid;*/
-   /*border-bottom-width: 1.5pt;*/
-   /*border-radius: 15px;*/
-   /*-webkit-border-radius: 15px;*/
    border-bottom: solid #ff0000;
    border-width: 1.5pt;
    border-color: #8da8bf;
