@@ -1,13 +1,8 @@
-var folderPanelHeight = 300;
-
-$("#infoToggler").click(function() {
-  $(".arrow").toggle();
-  $("#news").toggle();
-  console.log($("#panel").height());
-  if (Math.round($("#panel").height()) === folderPanelHeight) {
-    $("#panel").height(1250);
-  }
-  else {
-    $("#panel").height(folderPanelHeight);
-  }
+$(document).ready(function(){
+  $("#infoToggler").click(function() {
+    $(".arrow").toggle();
+    $("#toBeHide").toggle();
+    $("#header").toggleClass("bottomRadius");
+    $("#panel").toggleClass("panelHeight");
+  });
 });
